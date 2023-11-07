@@ -9,8 +9,8 @@ let Contact = () => {
           <i className="fa-solid fa-envelope"></i>gnanadeep.t@gmail.com
         </div>
         <span>
-          <i className="fa-brands fa-linkedin"></i>
-          <i className="fa-brands fa-github"></i>
+          <i className="fa-brands fa-linkedin" onClick={()=>{window.open("https://www.linkedin.com/in/gnanadeep3/")}}></i>
+          <i className="fa-brands fa-github" onClick={()=>{window.open("https://github.com/gnanadeep-t")}}></i>
         </span>
       </div>
     );
