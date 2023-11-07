@@ -17,7 +17,7 @@ let Nav = () => {
   }, [obj.n]);
 
   return (
-    <div className="nav-total">
+
       <nav>
         <div className="nav-left">
           {obj.wdt < 750 && (
@@ -29,8 +29,8 @@ let Nav = () => {
           {obj.wdt < 750 ? obj.n && <SubNav /> : <SubNav />}
         </div>
       </nav>
-      {/* <div className="overlay" onClick={obj.navDisp}></div> */}
-    </div>
+    
+
   );
 };
 export default Nav;

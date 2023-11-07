@@ -12,34 +12,22 @@
     align-items: center;
     justify-content: center;
     width: 100%;
+    overflow-x: hidden;
     gap: 20px;
   }
   .wrapper {
     position: relative;
   }
-  
-  .nav-total {
-    width: 100%;
-    display: none;
-    background-color: transparent;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    position: sticky;
-    top: 0px;
-    z-index: 1;
-  }
   nav {
     width: 100%;
     height: 10vh;
     min-height: 50px;
-    /* background-color: rgb(101, 97, 205); */
     background-color: rgb(25, 4, 130);
     color: white;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    position: sticky;
+    position:fixed;
     top: 0px;
     z-index: 2;
   }
@@ -85,13 +73,7 @@
     justify-content: center;
     align-items: center;
   }
-  .home,
-  .about-con,
-  .skills-con,
-  .projects-con,
-  .contact {
-    /* z-index: 0; */
-  }
+
   .home .text {
     display: flex;
     flex-direction: column;
@@ -152,6 +134,9 @@
   .card,
   button {
     box-shadow: 1px 1px 4px 0.5px gray;
+  }
+  .skill-card:hover{
+    transform: scale(1.04);
   }
   .skills-con {
     width: 90%;
@@ -234,7 +219,7 @@
     min-width: 320px;
     gap: 10px;
     width: 30%;
-    height: 400px;
+    height: 450px;
     background-color: white;
   }
   .project-card img {
@@ -248,10 +233,16 @@
     gap: 10px;
     margin: 10px auto;
   }
+  .project-card p{
+    margin: 0px 5px;
+  }
   .project-card button {
     width: 100px;
     height: 50px;
-    border-radius: 10px;
+    border-radius: 0px 2px;
+  }
+  .project-card button:hover{
+    box-shadow: 1px 1px 4px 1.2px black;
   }
   .projects {
     width: 95%;
@@ -373,7 +364,6 @@
     }
     .nav-right > div {
       width: 100%;
-      /* height: 100vh; */
       display: flex;
       flex-direction: column;
       justify-content: space-between;
@@ -383,11 +373,6 @@
       display: flex;
       flex-direction: column;
       background-color: black;
-    }
-    .overlay {
-      background-color: black;
-      height: 100vh;
-      border: 1px solid grey;
     }
   }
   

@@ -31,6 +31,10 @@ let Skills = () => {
           logo={<i className="fa-brands fa-node-js"></i>}
           text="Node Js"
         />
+        <SkillCard
+          logo={<i class="fa-brands fa-git"></i>}
+          text="Git"
+        />
       </div>
     </div>
   );

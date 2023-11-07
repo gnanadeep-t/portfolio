@@ -19,7 +19,6 @@ let SubNav = () => {
           Contact
         </AnchorLink>
       </div>
-      <div className="overlay"></div>
     </div>
   );
 };

@@ -9,7 +9,7 @@ let ProjectCard = (props) => {
           <button className="git" onClick={props.fun}>
             Github
           </button>
-          <button className="live" onClick={props.fun}>
+          <button className="live" onClick={props.fun1}>
             Go Live
           </button>
         </div>
