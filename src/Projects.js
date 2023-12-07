@@ -5,6 +5,7 @@ import paytm from "./project_images/paytm.jpg";
 import tmobile from "./project_images/tmobile.jpg";
 import zohobooks from "./project_images/zohobooks.jpg";
 import ProjectCard from "./ProjectCard";
+import dalearts from "./project_images/dalearts.png"
 
 let Projects = () => {
   const gitLinks=["https://github.com/gnanadeep-t/Fitpeo","https://github.com/gnanadeep-t/zohobooks-clone","https://github.com/gnanadeep-t/linkedin","https://github.com/gnanadeep-t/mamaearth","https://github.com/gnanadeep-t/mamaearth","https://github.com/gnanadeep-t/paytm-clone","https://github.com/gnanadeep-t/brochure","https://github.com/gnanadeep-t/dalearts"]
