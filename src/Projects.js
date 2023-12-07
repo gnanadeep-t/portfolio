@@ -7,8 +7,8 @@ import zohobooks from "./project_images/zohobooks.jpg";
 import ProjectCard from "./ProjectCard";
 
 let Projects = () => {
-  const gitLinks=["https://github.com/gnanadeep-t/Fitpeo","https://github.com/gnanadeep-t/zohobooks-clone","https://github.com/gnanadeep-t/linkedin","https://github.com/gnanadeep-t/mamaearth","https://github.com/gnanadeep-t/mamaearth","https://github.com/gnanadeep-t/paytm-clone","https://github.com/gnanadeep-t/brochure"]
-  const depLinks=["https://csb-swzfrd.vercel.app/","https://zohobooks-clone.vercel.app/","https://linkedin-eta-three.vercel.app/","https://mamaearth-zeta.vercel.app/","https://paytm-clone-omega.vercel.app/","https://brochure-eight.vercel.app/"]
+  const gitLinks=["https://github.com/gnanadeep-t/Fitpeo","https://github.com/gnanadeep-t/zohobooks-clone","https://github.com/gnanadeep-t/linkedin","https://github.com/gnanadeep-t/mamaearth","https://github.com/gnanadeep-t/mamaearth","https://github.com/gnanadeep-t/paytm-clone","https://github.com/gnanadeep-t/brochure","https://github.com/gnanadeep-t/dalearts"]
+  const depLinks=["https://csb-swzfrd.vercel.app/","https://zohobooks-clone.vercel.app/","https://linkedin-eta-three.vercel.app/","https://mamaearth-zeta.vercel.app/","https://paytm-clone-omega.vercel.app/","https://brochure-eight.vercel.app/","https://dalearts.vercel.app/"]
   let fun=(i)=>{
     window.open(gitLinks[i])
   }
@@ -66,6 +66,14 @@ let Projects = () => {
           des="A simple brochure webpage using HTML and CSS"
           fun={()=>fun(5)}
           fun1={()=>fun1(5)}
+        />
+        <ProjectCard
+          img={dalearts}
+          title="dalearts"
+          techs="HTML,CSS,React Js"
+          des="A simple webpage using HTML, CSS and React Js"
+          fun={()=>fun(6)}
+          fun1={()=>fun1(6)}
         />
       </div>
     </div>
